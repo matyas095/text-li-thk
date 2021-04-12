@@ -1,0 +1,195 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	height: 100vh;
+	background-size: cover;
+	background-color: black;
+}
+
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+@keyframes spinner {
+  0% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(359deg); }
+}
+
+.spinner {
+	width: 40px;
+	height: 40px;
+	border: 4px solid #ffffff;
+	border-top-color: rgba(255, 255, 255, 0.3);
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	top: 150px;
+	margin-left: -20px;
+	margin-top: -20px;
+	animation: spinner 0.6s infinite linear;
+	transition: top 0.3s 0.3s ease, opacity 0.3s 0.3s ease, border-radius
+		0.3s ease;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.classa {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -250px;
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 2px 2px 5px 5px;
+}
+
+.fa-user {
+	color: #fff;
+	font-size: 1em;
+	position: absolute;
+	margin-top: 7px;
+	opacity: 1;
+	left: 0;
+	transition: all 0.1s ease-in;
+}
+
+.classa button {
+	/*position: absolute;
+	top: 92%;*/
+	border: none;
+	width: 100%;
+	background: #2196F3;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	color: #fff;
+	border: 0px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0 0 2px 2px;
+	outline: none;
+	transition: all 0.4s ease-out;
+}
+
+.classa .btn-load {
+	background-color: #557A95;
+}
+
+.classa .btn-fail {
+	background-color: #fd864b;
+}
+
+/*.classa button:active {
+	background-color: #557A95;
+    max-height: 100%;
+    padding-top: 500px;
+}*/
+.classa input {
+	display: block;
+	font-family: "Open Sans", sans-serif;
+	width: 50%;
+	position: absolute;
+	height: 8%;
+	left: 25%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #777;
+	box-shadow: none !important;
+	border-radius: 2px;
+	font-family: "Open Sans", sans-serif;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0, 5s ease;
+	-ms-transition: all 0.5s ease;
+}
+
+.classa .password {
+	top: 155px;
+}
+
+.classa input:focus {
+	border-color: blue;
+	border-width: medium medium 2px;
+	border-left-width: 35px;
+	/*opacity: 1;
+	left: 30px;
+	transition: all 0.25s ease-out;*/
+}
+
+/*.classa .line {
+  height: 2px;
+  width: 0px;
+  position: absolute;
+  background-color: darkgrey;
+  display: inline-block;
+  transition: .3s width ease-in-out;
+  position: relative;
+  top: 24px;
+}
+
+.classa input[type=text]:focus+.line, select:focus+.line {
+  width: 100%;
+  background-color: #02add7;
+}*/
+.classa .thefu {
+	color: #444;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 10px 0 30px 5px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+	font-family: "Open Sans", sans-serif;
+}
+
+button {
+  overflow: hidden;
+}
+
+button span {
+	position: absolute;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	margin-left: -50px;
+	animation: ripple 1s;
+	opacity: 0;
+}
+
+@keyframes ripple {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(10);
+  }
+}
+
+.fas .fa-check {
+	width: 40px;
+	height: 40px;
+	border: 4px solid #ffffff;
+	border-top-color: rgba(255, 255, 255, 0.3);
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	top: 150px;
+	margin-left: -20px;
+	margin-top: -20px;
+	transition: top 0.3s 0.3s ease, opacity 0.3s 0.3s ease, border-radius
+		0.3s ease;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*.classa .fa-user-alt {
+	/*color: #fff;
+	font-size: 1em;
+	position: absolute;
+	margin-top: -43px;
+	opacity: 1;
+	left: 0;
+	transition: all 0.1s ease-in;
+}*/
