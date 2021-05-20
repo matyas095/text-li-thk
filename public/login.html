@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Discord 2.0</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<!--  <link rel="icon" href="${pageContext.request.contextPath}/devmech.png"
+			type="image/icon type"> -->
+		<link rel="shortcut icon" href="#">
+		<script src='https://kit.fontawesome.com/a076d05399.js'
+			crossorigin='anonymous'></script>
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="./login.js" defer></script>
+		<link rel="stylesheet" href="login.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+			rel="stylesheet">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap"
+			rel="stylesheet">
+	</head>
+	<body>
+		<div class="classa">
+			<p class="thefu">Log in</p>
+			<input type="text" class="nickname" placeholder="NICKNAME" required>
+			<div class="line"></div>
+			<input type="password" class="password" placeholder="HESLO" required>
+			<div class="line"></div>
+			<!-- <i class='fas fa-user-alt' style='font-size:36px'></i> -->
+			<button class="btn-asp" style="padding-top: 0;">
+				<p style="opacity: 1;">Turn in</p>
+			</button>
+			<!--<i class="fa fa-user"></i> -->
+		</div>
+		<i class="spinner" style="opacity: 0;"></i>
+	</body>
+</html>

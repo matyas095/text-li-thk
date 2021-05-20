@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap')
+	;
+
+body, html {
+	height: 100%;
+	padding: -10px;
+	margin: 0 0 !important;
+	height: 100%;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #36393f;
+}
+
+.main {
+	background-color: #2f3136;
+	width: 100%;
+	height: 6vh;
+	position: absolute;
+}
+
+.main h1 {
+	color: #8e9297;
+	position: relative;
+	top: -14px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.chat {
+	/*display: flex;*/
+	width: 95%;
+	background-color: #2f3136;
+	position: absolute;
+	top: 7vh;
+	height: 78vh;
+	overflow-y: auto;
+	/*key*/
+	min-height: 100%;
+	padding: 15px 30px;
+	margin: 0 auto;
+	overflow-y: scroll;
+	background-color: #fff;
+	transform: rotate(180deg);
+	direction: rtl;
+	/*padding-top: 500px;
+	/*overflow-y: scroll;
+	justify-content: flex-end;
+	flex-direction: column;
+	justify-content: flex-end;
+	flex-direction: column;
+	min-height: 0;*/
+}
+
+.chat .chat_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.chat .contain {
+	width: 180px;
+	height: 78vh;
+	overflow: auto;
+	z-index: 5;
+	padding: 0 797px 0 0;
+}
+
+.chat div {
+	/*position: absolute;
+	bottom: 0;*/
+	width: 100%;
+	transition: 0.2s;
+	overflow: hidden;
+	/*bottom: 0;*/
+	margin-bottom: 20px;
+	position: absolute;
+	max-height: 100%;
+	word-wrap: break-word;
+}
+
+.chat div:not(:first-child):hover {
+	background-color: #2E1114
+}
+
+.chat div h3 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.chat div .p {
+	color: #fff;
+	position: relative;
+	left: 10vh;
+	font-family: 'Roboto', sans-serif;
+	max-width: 200px;
+	word-wrap: break-word;
+}
+
+.chat div .mat {
+	color: #FC4445;
+}
+
+.chat div .adm {
+	font-family: 'Open Sans', sans-serif;
+	color: #FCE181;
+}
+
+.chat div .for {
+	width: 75%;
+	height: 2.4px;
+	position: relative;
+	left: 14vh;
+	border-radius: 2px;
+	background-color: #ADADAD;
+}
+
+.chat .scrollbar {
+	cursor: n-resize;
+	position: absolute;
+	overflow: auto;
+	top: 0px;
+	right: 0px;
+	z-index: 2;
+	background: #444;
+	width: 17px;
+	border-radius: 8px;
+}
+
+.mes {
+	width: 60%;
+	height: 10vh;
+	position: fixed;
+	top: 85%;
+	background-color: #40444b;
+	border-radius: 15px;
+	left: 20%;
+}
+
+.mes input {
+	color: #dcddde;
+	background: transparent;
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	left: 10px;
+	position: absolute;
+	overflow: none;
+	outline: none;
+	border: none;
+	text-align: top;
+	height: 100%;
+	width: 95%;
+	max-width: 90%;
+	word-wrap: break-word;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user id="0">
+		<username>matyas</username>
+		<identification>/</identification>
+		<password>the</password>
+		<privileges>root</privileges>
+	</user>
+	<user id="1">
+		<username>game</username>
+		<identification>.</identification>
+		<password>tee</password>
+		<privileges>none</privileges>
+	</user>
+	<user id="2">
+		<username>eva</username>
+		<identification>.</identification>
+		<password>eva</password>
+		<privileges>none</privileges>
+	</user>
+	<user id="3">
+		<username>baba yaga</username>
+		<identification>.</identification>
+		<password>yaga</password>
+		<privileges>none</privileges>
+	</user>
+</users>
